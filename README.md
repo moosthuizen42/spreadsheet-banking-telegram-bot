@@ -15,7 +15,7 @@ This integration is built using an Add-In for Microsoft Office Excel, and the Te
 - Step 2: Clone this repository. Make sure you have Node and NPM installed by checking their versions using `node -v` and `npm -v` respectively. Install all the required dependencies by running `npm i` in the root directory of the cloned repository.
 
 
-- Step 3: Obtain OpenAI API credentials [https://beta.openai.com/account/api-keys](on this website). Replace the hardcoded credential string named `GPT_API_SECRET` inside `src/functions/functions.js`.
+- Step 3: Obtain OpenAI API credentials [on this website](https://beta.openai.com/account/api-keys). Replace the hardcoded credential string named `GPT_API_SECRET` inside `src/functions/functions.js`.
 
 
 - Step 4: Run the command `npm run build`.
