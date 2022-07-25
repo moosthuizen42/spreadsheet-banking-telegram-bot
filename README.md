@@ -9,7 +9,7 @@ This integration is built using an Add-In for Microsoft Office Excel, and the Te
 
 ## Setup
 
-- Step 1: Copy your programmable banking spreadsheet (created using [https://spreadsheetbanking.dev/](https://spreadsheetbanking.dev/)) into your own OneDrive. Unless your Microsoft user has full access to the OfferZen sharepoint, this is a required step.
+- Step 1: Make a copy of the this banking spreadsheet [available here](https://1drv.ms/x/s!AtkUJn0N8CerboundGT57hRpQzg?e=naBg7S/) to your own OneDrive. You can also use your own spreadsheet, in which case you will need to copy the contents of the `💬 Telegram setup`, `💬 Telegram configurator` and `💬 Telegram log` sheets into your own spreadhseet. Only if your Microsoft user has full access to the OfferZen Sharepoint will you not need to make a copy to your OneDrive.
 
 
 - Step 2: Clone this repository. Make sure you have Node and NPM installed by checking their versions using `node -v` and `npm -v` respectively.
