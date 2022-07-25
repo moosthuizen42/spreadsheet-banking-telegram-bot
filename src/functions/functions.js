@@ -197,7 +197,6 @@ const TELEGRAM_UPDATE_LOOP_INTERVAL = 5000; // ms
 
   await loadConversationTree();
 
-  // const url = `https://api.telegram.org/bot5390338534:AAFXsi3Pjf14PPxyh15nDZBksutzkbuuuF8/getUpdates?offset=${offset}`;
   const url = `https://api.telegram.org/bot${botToken}/getUpdates?offset=${offset}`;
   const response = await fetch(url);
 
