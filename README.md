@@ -12,10 +12,10 @@ This integration is built using an Add-In for Microsoft Office Excel, and the Te
 - Step 1: Make a copy of the this banking spreadsheet [available here](https://1drv.ms/x/s!AtkUJn0N8CerboundGT57hRpQzg?e=naBg7S/) to your own OneDrive. You can also use your own spreadsheet, in which case you will need to copy the contents of the `💬 Telegram setup`, `💬 Telegram configurator` and `💬 Telegram log` sheets into your own spreadhseet. Only if your Microsoft user has full access to the OfferZen Sharepoint will you not need to make a copy to your OneDrive.
 
 
-- Step 2: Clone this repository. Make sure you have Node and NPM installed by checking their versions using `node -v` and `npm -v` respectively.
+- Step 2: Clone this repository. Make sure you have Node and NPM installed by checking their versions using `node -v` and `npm -v` respectively. Install all the required dependencies by running `npm i` in the root directory of the cloned repository.
 
 
-- Step 3: Install all the required dependencies by running `npm i` in the root directory of the cloned repository.
+- Step 3: Obtain OpenAI API credentials [https://beta.openai.com/account/api-keys](on this website). Replace the hardcoded credential string named `GPT_API_SECRET` inside `src/functions/functions.js`.
 
 
 - Step 4: Run the command `npm run build`.
